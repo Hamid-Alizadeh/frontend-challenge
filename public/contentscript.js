@@ -24,7 +24,6 @@ const budgetValue = document
   .textContent.trim();
 
 const budgetBtn = document.createElement('div');
-budgetBtn.classList.add('budget-to-beat');
 cssStyler(budgetBtn, budgetBtnStyle);
 
 const budgetImg = document.createElement('img');
